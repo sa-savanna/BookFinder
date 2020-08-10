@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "title": "Mastering Integrated HTML and CSS",
+      "authors": "Authors: Virginia DeBolt",
+      "categories": "Category: Computers",
+      "language": "language: EN",
+      "link": "http://books.google.be/books?id=3A-SDZTWGIUC&pg=PA109&dq=css&hl=&cd=3&source=gbs_api",
+      "img": "http://books.google.com/books/content?id=3A-SDZTWGIUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "describtion": "This unique approach to learning HTML and CSS simultaneously shows you how to save time and be more productive by learning to structure your (X) HTML content for best effect with CSS styles. You’ll discover how to create websites that are accessible to the widest range of visitors, build CSS for print and handheld devices, and work with a variety of CSS-based layouts. Using the latest standards, best practices, and real-world examples, this book offers you with a thorough grounding in the basics and also includes advanced techniques.",
+      "id": 1
+    },
+    {
+      "title": "CSS: The Definitive Guide",
+      "authors": "Authors: Eric A. Meyer",
+      "categories": "Category: Computers",
+      "language": "language: EN",
+      "link": "http://books.google.be/books?id=rdtCRLXAL78C&pg=PA133&dq=css&hl=&cd=5&source=gbs_api",
+      "img": "http://books.google.com/books/content?id=rdtCRLXAL78C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "describtion": "CSS: The Definitive Guide, 3rd Edition, provides you with a comprehensive guide to CSS implementation, along with a thorough review of all aspects of CSS 2.1. Updated to cover Internet Explorer 7, Microsoft's vastly improved browser, this new edition includes content on positioning, lists and generated content, table layout, user interface, paged media, and more. Simply put, Cascading Style Sheets (CSS) is a way to separate a document's structure from its presentation. The benefits of this can be quite profound: CSS allows a much richer document appearance than HTML and also saves time -- you can create or change the appearance of an entire document in just one place; and its compact file size makes web pages load quickly. CSS: The Definitive Guide, 3rd Edition, provides you with a comprehensive guide to CSS implementation, along with a thorough review of all aspects of CSS 2.1. Updated to cover Internet Explorer 7, Microsoft's vastly improved browser, this new edition includes content on positioning, lists and generated content, table layout, user interface, paged media, and more. Author Eric Meyer tackles the subject with passion, exploring in detail each individual CSS property and how it interacts with other properties. You'll not only learn how to avoid common mistakes in interpretation, you also will benefit from the depth and breadth of his experience and his clear and honest style. This is the complete sourcebook on CSS. The 3rd edition contains: Updates to reflect changes in the latest draft version of CSS 2.1 Browser notes updated to reflect changes between IE6 and IE7 Advanced selectors supported in IE7 and other major browsers included A new round of technical edits by a fresh set of editors Clarifications and corrected errata, including updated URLs ofreferenced online resources",
+      "id": 2
+    },
+    {
+      "title": "Anna",
+      "authors": "Authors: Niccolò Ammaniti",
+      "categories": "Category: Fiction",
+      "language": "language: NL",
+      "link": "http://books.google.be/books?id=p0rVCgAAQBAJ&pg=PT134&dq=anna&hl=&cd=3&source=gbs_api",
+      "img": "http://books.google.com/books/content?id=p0rVCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "describtion": "Nadat een mysterieus virus alle volwassenen heeft uitgeroeid, is Sicilië verworden tot een gigantische ruïne van verlaten steden, afgebrande winkelcentra en onbegaanbare wegen. Alleen de kinderen zijn overgebleven en proberen op het desolate eiland, waar de hitte en de zon het landschap teisteren en overal jongerige wilde honden op de loer liggen, te overleven zonder elektriciteit, vers water en voedsel. Sinds de dood van hun ouders zorgt de dertienjarige Anna voor haar acht jaar oude broertje Astor, aan de hand van het notitieboekje dat haar moeder achterliet. Als Astor wordt ontvoerd, besluit Anna samen met haar hond naar hem op zoek te gaan in de hoop uiteindelijk de overtocht naar het vasteland te maken, op weg naar een nieuwe toekomst.",
+      "id": 3
+    },
+    {
+      "title": "J.S. Bach. De h-Moll-Messe",
+      "authors": "Authors: Ignace Bossuyt",
+      "categories": "Category: Music",
+      "language": "language: NL",
+      "link": "http://books.google.be/books?id=HM-2DgAAQBAJ&pg=PA192&dq=js&hl=&cd=1&source=gbs_api",
+      "img": "http://books.google.com/books/content?id=HM-2DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "describtion": "De fascinerende geschiedenis van Bachs muzikaal testament Enkele maanden vóór zijn overlijden in 1750 voltooide Johan Sebastian Bach zijn muzikaal testament: de h-Moll-Messe. Hij creëerde hiermee een bewonderenswaardige synthese van de hele geschiedenis van de mis, het genre dat ook toen nog gold als dé toetssteen voor compositorisch vernuft en scherpzinnige tekstinterpretatie. Middeleeuwen, renaissance en barok versmelten in Bachs ultieme meesterwerk tot wellicht de meest universele compositie uit het West-Europese repertoire. Op basis van het recentste onderzoek schetst Ignace Bossuyt de fascinerende ontstaansgeschiedenis van de h-Moll-Messe binnen het historische, muzikale en religieuze kader van Bachs tijd. Hij bespreekt in detail de vijf delen van de mis (Kyrie, Gloria, Credo, Sanctus en Agnus Dei), fragment per fragment, met aandacht voor zowel de puur muzikale aspecten als de theologische en symbolische duiding van de mistekst. In een apart hoofdstuk gaat hij dieper in op het gebruik van de parodie of de herwerking van vroeger gecomponeerde muziek, een van de basistechnieken die Bach ook hier toepaste. Ten slotte komen we ook te weten hoe de mis onthaald werd vanaf Bachs sterfjaar tot op heden.",
+      "id": 4
+    }
+  ]
+}
