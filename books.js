@@ -4,7 +4,7 @@ const links = document.querySelectorAll("a.nav-link");
 const [link1, link2] = links;
 const input = document.querySelector('input');
 const read = document.querySelectorAll('.btn-primary')
-// const library = document.querySelectorAll('.btn-outline')
+
 
 
 class Books {
@@ -72,34 +72,34 @@ class Books {
                         // console.log(currentBook.categories)
 
 
-                        // fetch("http://localhost:5005/data", {
-                        //     method: 'POST',
-                        //     body: JSON.stringify(currentBook),
-                        //     headers: {
-                        //         'Content-Type': 'application/json'
-                        //     }
-                        // })
+                        fetch("http://localhost:5005/data", {
+                            method: 'POST',
+                            body: JSON.stringify(currentBook),
+                            headers: {
+                                'Content-Type': 'application/json'
+                            }
+                        })
 
-                        //     .then(res => res)
-                        //     .then((data) => {
-                        //         let result = JSON.parse(data)
-                        //         return result;
-                        //     })
-                        // .then(() => {
-                        //     document.querySelector('.filterList').classList.remove('del');
-                        //     fetch('books.json')
-                        //         .then((res) => res.json())
-                        //         .then((data) => {
-                        //             document.querySelector('.filterList').innerHTML = output;
-                        //             data.forEach((x) => {
-                        //                 output += `
-                        //     <li class="filterListItem btn btn-sm btn-outline-info" data-filter="${x.categories}"> </li>
-                        //     `
-                        //             })
+                            .then(res => res)
+                            .then((data) => {
+                                let result = JSON.parse(data)
+                                return result;
+                            })
+                        .then(() => {
+                            document.querySelector('.filterList').classList.remove('del');
+                            fetch('books.json')
+                                .then((res) => res.json())
+                                .then((data) => {
+                                    document.querySelector('.filterList').innerHTML = output;
+                                    data.forEach((x) => {
+                                        output += `
+                            <li class="filterListItem btn btn-sm btn-outline-info" data-filter="${x.categories}"> </li>
+                            `
+                                    })
 
-                        //         })
+                                })
 
-                        // })
+                        })
                         document.querySelector('.filterListItem').style.visibility = "visible";
 
 
@@ -107,34 +107,34 @@ class Books {
                     })
 
                 })
-                // .then(() => {
-                //     const category = document.querySelectorAll('.card-category');
-                //     const author = document.querySelectorAll('.font-italic')
-                //     const desc = document.querySelectorAll('.zoom')
+                .then(() => {
+                    const category = document.querySelectorAll('.card-category');
+                    const author = document.querySelectorAll('.font-italic')
+                    const desc = document.querySelectorAll('.zoom')
 
 
-                //     for (let index in category) {
+                    for (let index in category) {
 
-                //         if (category[index].innerText === "Category: undefined") {
-                //             category[index].remove();
-                //         }
-                //     }
-                //     for (let param in author) {
+                        if (category[index].innerText === "Category: undefined") {
+                            category[index].remove();
+                        }
+                    }
+                    for (let param in author) {
 
-                //         if (author[param].innerText === "Authors: undefined") {
-                //             author[param].remove();
-                //         }
-                //     }
+                        if (author[param].innerText === "Authors: undefined") {
+                            author[param].remove();
+                        }
+                    }
 
-                //     for (let y in desc) {
+                    for (let y in desc) {
 
-                //         if (desc[y].innerText === "undefined") {
-                //             desc[y].innerText = "No describtion";
-                //         }
-                //     }
+                        if (desc[y].innerText === "undefined") {
+                            desc[y].innerText = "No describtion";
+                        }
+                    }
 
 
-                // })
+                })
 
             })
             .catch((err) => console.log(err));
@@ -222,27 +222,25 @@ document.querySelectorAll('.btn-outline-success').forEach(button => {
         fetch('books.json/data', options)
             .then(response => response.json())
             .then(data => { console.log(data) })
-        //     for (let x in data)
-        //     row3.innerHTML += `
-        //     <div class="card">
-        //         <div class="card-hover">
-        //             <img src="${data[x].img}" class="card-img-top">
-        //             <p class="zoom">${data[x].describtion}</p>
-        //         </div>
-        //         <div class="card-body">
-        //             <h6 class="card-title">${data[x].title}</h6>
-        //             <h7 class="font-italic">Authors: ${data[x].authors} </h7>
-        //             <p class="card-category mt-2">Category: ${data[x].categories}</p>
-        //             <p class="language"><small>language: ${data[x].language}</small></p>
-        //             <a href="${data[x].link}" target="_blank" class="btn btn-primary">Read</a>
-        //             <br>
-        //             <button type="button" class="btn btn-outline-success btn-sm d-inline mt-3">Delete from library</button>
-        //         </div>
-        //     </div>
-        //   `
-        // })
-
-    })
+            for (let x in data)
+            row3.innerHTML += `
+            <div class="card">
+                <div class="card-hover">
+                    <img src="${data[x].img}" class="card-img-top">
+                    <p class="zoom">${data[x].describtion}</p>
+                </div>
+                <div class="card-body">
+                    <h6 class="card-title">${data[x].title}</h6>
+                    <h7 class="font-italic">Authors: ${data[x].authors} </h7>
+                    <p class="card-category mt-2">Category: ${data[x].categories}</p>
+                    <p class="language"><small>language: ${data[x].language}</small></p>
+                    <a href="${data[x].link}" target="_blank" class="btn btn-primary">Read</a>
+                    <br>
+                    <button type="button" class="btn btn-outline-success btn-sm d-inline mt-3">Delete from library</button>
+                </div>
+            </div>
+          `
+        })
 })
 
 
